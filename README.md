@@ -122,3 +122,5 @@ The theme contains a minimal test suite, to ensure a site with the theme would b
 <hr>
 ## IMPORTANT_NOTES
 https://dance411.github.io/ bubblegumfm@proton.me
+https://holetoanotheruniverse.github.io/ holetoanotheruniverseprotonmail.com@protonmail.com
+ https://thakasartu.github.io/ @gmail
