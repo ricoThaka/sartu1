@@ -10,6 +10,19 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+term
+: definition
+
+I need to highlight these ==very important words==.
+
+H~2~O
+
+X^2^
+
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
