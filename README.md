@@ -3,6 +3,7 @@
 background: rgb(131,58,180);
 background: linear-gradient(90deg, rgba(131,58,180,0.5) 0%, rgba(253,29,29,0.5) 50%, rgba(252,176,69,0.5) 100%);
 
+background: linear-gradient(90deg, rgba(172,65,66,0.7399334733893557) 0%, rgba(170,117,159,0.8127626050420168) 35%, rgba(0,212,255,0.7091211484593838) 100%);
 
 # The Hacker theme
 
