@@ -2,8 +2,9 @@
 
 set -e
 
-# bundle exec jekyll build
+bundle exec jekyll build
  # bundle exec htmlproofer ./_site --check-html --check-sri
 # bundle exec rubocop -D --config .rubocop.yml
 # bundle exec script/validate-html
+gem install bundler -v 2.4.22
 gem build jekyll-theme-hacker.gemspec
