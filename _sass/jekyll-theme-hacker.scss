@@ -69,8 +69,7 @@ table {
 body {
   color: white;
 	 background: url(https://raw.githubusercontent.com/ThakaRashard/bubblegumpop/gh-pages/img/bd_type1_citycrop.jpg) no-repeat center center fixed; 
-  font-family: Ubuntu, sans-serif;
-  line-height: 1.5;
+   line-height: 1.5;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -147,6 +146,8 @@ header h1 {
     0 0 5px rgba(181, 232, 83, 0.1),
     0 0 10px rgba(181, 232, 83, 0.1);  */
     color: #fff;
+    font-size: 100px;
+font-weight: 900;
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
@@ -158,11 +159,60 @@ header h1 {
         0 0 125px #0DCBFF;
     letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
-
+  webkit-background-clip: text;
+  -moz-background-clip: text;
+       background-clip: text;
+       animation-fill-mode: forwards;
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
   @include media-max-width($container-max-width) {
     margin-left: 0;
   }
 
+}
+
+
+
+.fade-in-text {
+  /* font-family: "Poppins", sans-serif;*/
+
+webkit-background-clip: text;
+   -moz-background-clip: text;
+        background-clip: text;
+        animation-fill-mode: forwards;
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
 }
 
 
