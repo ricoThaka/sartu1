@@ -1,3 +1,4 @@
+![×](https://eoimages.gsfc.nasa.gov/images/imagerecords/148000/148314/locustswide_lis_2020170_lrg.jpg)
 
 # QURAN_iN_ARABiC
 [THIS_IS_A_COMFORTING_VERSE_4u_MY_QUEEN](https://quran.com/4?startingVerse=25)
